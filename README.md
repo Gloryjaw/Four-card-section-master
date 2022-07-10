@@ -37,7 +37,7 @@ Users should be able to:
 - Mobile-first workflow
 
 ## What I Learned
-- Learned that padding and border messes up the width(if you are using flex properties to make flex items equal widths or using % unit in width).
+- Learned that padding and border messes up the width,if you are using flex properties to make flex items equal widths or using % unit in width.(only if the combined width of flex-items is more than that of flex-container otherwise it will have no problem)
 
 
 ## Author
