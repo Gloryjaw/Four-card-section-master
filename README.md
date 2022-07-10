@@ -25,8 +25,8 @@ Users should be able to:
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+##What I learned
+-Learned that giving padding in flex items messes up their widths. Although I used max-widths to prevent that.
 
 ### Built with
 
