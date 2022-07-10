@@ -6,9 +6,10 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-
- - [Built with](#built-with)
+- [Built with](#built-with)
+- [What I learned](#what-i-earned)
 - [Author](#author)
+
 
 
 
@@ -35,7 +36,8 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-
+## What I Learned
+- Learned that padding and border messes up the width(if you are using flex properties to make flex items equal widths or using % unit in width).
 
 
 ## Author
