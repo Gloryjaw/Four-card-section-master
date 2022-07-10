@@ -19,7 +19,7 @@
   --vl-gray: hsl(0, 0%, 98%);
 }
 .small-heading{
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 200;
   color: var(--vd-blue);
 }
@@ -32,13 +32,13 @@ main{
   
 }
 h1{
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: var(--vd-blue);
  
 }
 h2{
   color: var(--vd-blue);
-  font-size: 1.38rem;
+  font-size: 1.1rem;
 }
 p{
   color:var(--g-blue) ;
@@ -51,6 +51,7 @@ p{
 .content__top>p{
   text-align: center;
   margin-bottom: 3em;
+  font-size: 0.9rem;
 }
 
 .bottom__items{
@@ -82,34 +83,61 @@ img{
   border-top: 4px solid var(--red);
 }
 @media(min-width:1200px){
-  html,body{
-    height: 100%;
-  }
+ body,html{
+  height: 100%;
+
+ }
  body{
   display: flex;
+  justify-content: center;
+  align-items: center;
  }
   main{
     max-width: none;
-    height: 90%;
-    margin: auto;
+    margin: 0;
+    width: 80%;
+   height: 100%;
+   padding: 2em 0;
   }
   p{
-   max-width: 550px;
+   max-width: 500px;
    margin: auto;
   }
   .content__bottom{
     display: flex;
     align-items: center;
-   justify-content: center;
-  gap: 30px;
+    justify-content: center;
+    gap: 35px;
+   
     
   }
+ 
   .bottom__items{
+  
+    max-width: none;
+   
+
+  }
+  .middle__items{
+    max-width: none;
     width: 100%;
-    
+    max-width: 330px;
+  
   }
   .cyan,.blue{
-    margin: 0;
+      margin: 0;
+      padding: 1.6em;
+      width: 100%;
+      max-width: 330px;
+   
+
+  
+  }
+  .red,.orange{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 1em;
   }
 
 }
